@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #2563eb;
+    background: #ffa600;
 }
 
 section {
@@ -42,8 +42,8 @@ section {
 }
 
 footer {
-    background: #1e3a8a;
-    color: white;
+    background: #ffa600;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px;
 }
