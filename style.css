@@ -11,10 +11,15 @@ header {
     text-align: center;
 }
 
-nav {
-    background: #111827;
-    display: flex;
-    justify-content: center;
+@media (max-width: 600px) {
+    nav {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    section {
+        padding: 20px;
+    }
 }
 
 nav a {
@@ -26,12 +31,6 @@ nav a {
 
 nav a:hover {
     background: #2563eb;
-}
-
-section {
-    padding: 40px;
-    max-width: 1000px;
-    margin: auto;
 }
 
 .card {
