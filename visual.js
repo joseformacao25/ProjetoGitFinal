@@ -43,4 +43,17 @@ document.addEventListener('DOMContentLoaded'), () => {
         observer.observe(card);
     });
 
-    
+    // Efeito de Hover Dinâmico nos itens da lista de tecnologias
+    const techItems = document.querySelectorAll('#tecnologias li');
+    techItems.forEach(item => {
+        item.addEventListener('mouseenter', () => {
+            item.style.color = '#007bff'; 
+            item.style.fontWeight = 'bold';
+        });
+        item.addEventListener('mouseleave', () => {
+            item.style.color = '';
+            item.style.fontWeight = '';
+        });
+    });
+
+};
