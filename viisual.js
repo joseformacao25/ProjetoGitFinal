@@ -50,3 +50,10 @@ document.addEventListener('DOMContentLoaded', () => {
             item.style.color = '#007bff'; 
             item.style.fontWeight = 'bold';
         });
+        item.addEventListener('mouseleave', () => {
+            item.style.color = '';
+            item.style.fontWeight = '';
+        });
+    });
+
+});
