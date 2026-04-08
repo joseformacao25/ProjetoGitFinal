@@ -1,7 +1,16 @@
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
     background: #f4f6f9;
+    color: #333; /* Melhora a legibilidade */
 }
 
 header {
