@@ -35,4 +35,12 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }, observerOptions);
 
-   
+    cards.forEach(card => {
+        // Estado inicial para a animação
+        card.style.opacity = '0';
+        card.style.transform = 'translateY(30px)';
+        card.style.transition = 'all 0.6s ease-out';
+        observer.observe(card);
+    });
+
+    
