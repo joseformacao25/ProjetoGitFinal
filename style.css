@@ -1,12 +1,12 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background: #f4f6f9;
+    background: #b2b3b4;
 }
 
 header {
-    background: #1e3a8a;
-    color: white;
+    background: #ffa600;
+    color: rgb(0, 0, 0);
     padding: 20px;
     text-align: center;
 }
@@ -24,7 +24,7 @@ nav a {
 }
 
 nav a:hover {
-    background: #2563eb;
+    background: #ffa600;
 }
 
 section {
@@ -34,7 +34,7 @@ section {
 }
 
 .card {
-    background: white;
+    background: #ffa600;
     padding: 20px;
     margin: 20px 0;
     border-radius: 10px;
@@ -42,8 +42,8 @@ section {
 }
 
 footer {
-    background: #1e3a8a;
-    color: white;
+    background: #ffa600;
+    color: rgb(0, 0, 0);
     text-align: center;
     padding: 15px;
 }
